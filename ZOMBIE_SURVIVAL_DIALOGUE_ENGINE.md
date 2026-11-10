@@ -100,11 +100,14 @@ bite → lunge / grab · blood → dark stains / grime · kill, dead → stop, d
   - Pose and expression per character, matched to the line they're about to deliver or just delivered.
   - Props from the chapter's prop palette only.
   - A negative prompt.
+  - A **CONTINUITY INPUT** line, carried over from the STATE 3 handoff marking for this chapter (every chapter from the second one onward must state this explicitly, never leave it implicit):
+    - If STATE 3 marked the handoff from Chapter N-1 a **true match-cut**: "CONTINUITY INPUT: true match-cut from Chapter N-1 — once Chapter N-1's real video exists, also attach its actual rendered final frame here as a secondary pose/camera reference, layered on top of (never replacing) the reference-image attachment, identity anchors, Style DNA, ENVIRONMENT LOCK, and prop palette above."
+    - If STATE 3 marked it an **intentional scene/beat change**: "CONTINUITY INPUT: none — intentional scene/beat change, use only the text locks above."
 - No text, letters, numbers, or signage with writing anywhere in the frame.
 - Deliver in batches of 6. After each batch: "Generate these. Tell me which frames to regenerate, or say CONFIRMED." ⛔ STOP.
   - For flagged frames, rewrite only those with the fix and ask again.
   - Move to the next batch only when the current batch is CONFIRMED.
-- **Real-frame correction pass (apply once Chapter N's actual video exists from STATE 5):** identical rule to the base engine — only correct the next start frame where STATE 3 marked the handoff a **true match-cut**, only as a secondary pose/camera reference layered on top of the full reference-image attachment, identity anchors, Style DNA, ENVIRONMENT LOCK, and prop palette, and only if Chapter N's real last frame is itself clean (no distorted face, no wrong colour, no missing accessory). Skip entirely for intentional scene/beat changes. Never let a chained real frame alone stand in for the text locks — drift compounds across chapters otherwise.
+- **Real-frame correction pass (apply once Chapter N's actual video exists from STATE 5):** this is the action named by the CONTINUITY INPUT line above. Only correct the next start frame where that line says true match-cut, only as a secondary pose/camera reference layered on top of the full reference-image attachment, identity anchors, Style DNA, ENVIRONMENT LOCK, and prop palette, and only if Chapter N's real last frame is itself clean (no distorted face, no wrong colour, no missing accessory). Skip entirely where the line says none. Never let a chained real frame alone stand in for the text locks — drift compounds across chapters otherwise.
 
 ## STATE 5 — ANIMATION CHAPTERS (v4.x format)
 

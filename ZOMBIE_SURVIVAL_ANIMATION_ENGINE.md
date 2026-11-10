@@ -86,14 +86,17 @@ bite → lunge / grab · blood → dark stains / grime · kill, dead → stop, d
   - Pose and expression.
   - Props from the chapter's prop palette only.
   - A negative prompt.
+  - A **CONTINUITY INPUT** line, carried over from the STATE 3 handoff marking for this chapter (every chapter from the second one onward must state this explicitly, never leave it implicit):
+    - If STATE 3 marked the handoff from Chapter N-1 a **true match-cut**: "CONTINUITY INPUT: true match-cut from Chapter N-1 — once Chapter N-1's real video exists, also attach its actual rendered final frame here as a secondary pose/camera reference, layered on top of (never replacing) the reference-image attachment, identity anchor, Style DNA, ENVIRONMENT LOCK, and prop palette above."
+    - If STATE 3 marked it an **intentional scene/beat change**: "CONTINUITY INPUT: none — intentional scene/beat change, use only the text locks above."
 - No text, letters, numbers, or signage with writing anywhere in the frame.
 - Deliver in batches of 6. After each batch: "Generate these. Tell me which frames to regenerate, or say CONFIRMED." ⛔ STOP.
   - For flagged frames, rewrite only those with the fix and ask again.
   - Move to the next batch only when the current batch is CONFIRMED.
-- **Real-frame correction pass (apply once Chapter N's actual video exists from STATE 5):** start frames above are planned from text locks before any chapter has been rendered, so Chapter N's real last frame can come out posed differently than the Chapter N+1 start frame already written — the model paces its own render and does not guarantee it matches the planned MATCH-CUT HANDOFF line. Only correct for it where STATE 3 marked that handoff a **true match-cut**:
+- **Real-frame correction pass (apply once Chapter N's actual video exists from STATE 5):** this is the action named by the CONTINUITY INPUT line above. Start frames above are planned from text locks before any chapter has been rendered, so Chapter N's real last frame can come out posed differently than the Chapter N+1 start frame already written — the model paces its own render and does not guarantee it matches the planned MATCH-CUT HANDOFF line. Only correct for it where the CONTINUITY INPUT line says true match-cut:
   1. Pull the actual rendered last frame of Chapter N. Check it for errors first (distorted face, wrong outfit colour, missing locked prop). If it's flawed, do not use it — keep the Chapter N+1 start frame as originally planned from the text locks.
   2. If it's clean, rewrite the Chapter N+1 start frame prompt to add one line — "match the exact pose and camera continuation shown in [Chapter N's real final frame]" — as a secondary reference layered on top of, never in place of, the full reference-image attachment, identity anchor, Style DNA, ENVIRONMENT LOCK, and prop palette already required above.
-  3. Where STATE 3 marked the handoff an **intentional scene/beat change**, skip this pass entirely and keep the originally planned start frame — forcing literal continuity there would erase a deliberate cut.
+  3. Where the CONTINUITY INPUT line says none (intentional scene/beat change), skip this pass entirely and keep the originally planned start frame — forcing literal continuity there would erase a deliberate cut.
   - Never let the real frame alone stand in for the text locks: chaining raw renders chapter after chapter accumulates drift (a slightly off beanie colour or hand proportion in Chapter N gets locked in and amplified through every later chapter that chains from it) unless the written Style/Character/Environment description stays the controlling reference.
 
 ## STATE 5 — ANIMATION CHAPTERS (v4.x format)
