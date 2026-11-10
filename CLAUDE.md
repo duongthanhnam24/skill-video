@@ -27,6 +27,19 @@ Hai dự án con "Zombie Subway" và "The Flood Line" **không liên quan nhau**
 
 - **`camera-movement-ai.md`** — thư viện 46 block prompt "Camera: ..." (pan/tilt, zoom, dolly, drone, specials...) để ghép thêm vào phần SHOTS của STATE 5 khi cần mô tả chuyển động camera cụ thể hơn. Tự nó không đủ thành một prompt hoàn chỉnh (thiếu shot size, ánh sáng, bối cảnh).
 
+## Skill ngoài dự án đã góp phần tạo nội dung (không nằm trong thư mục này)
+
+- **`screenwriting-master` (山音超级编剧大师)** — Skill global, cài ở `C:\Users\MKT\.claude\skills\screenwriting-master`, KHÔNG phải viết riêng cho dự án zombie này — là công cụ biên kịch đa định dạng (short film, feature, series...) dùng chung cho nhiều dự án khác nhau của user.
+  - Đã được dùng để viết **`ZOMBIE_SUBWAY_PART1_SCRIPT.md`**: nhận premise ban đầu ("mặt trời phát bức xạ lạ biến người thành zombie, người sống sót trốn trong ga tàu điện ngầm...") rồi phát triển ra toàn bộ season planning Phần 1 — logline, tóm tắt, nhân vật (Lâm/Hạ/Đức/An...) với Ghost/Lie/Want/Need/Arc, tiền sử, thế giới quan.
+  - Script này **sau đó** mới được đưa vào làm input cho `ZOMBIE_SURVIVAL_DIALOGUE_ENGINE.md` ở STATE 1 (nhánh "tôi đã có script hoàn chỉnh" — engine không tự sáng tác lại, chỉ ingest và chuyển thành prompt ảnh/video).
+  - Vì đây là skill global, không nằm trong thư mục `skill-video`, nên nó **không được version-control cùng dự án này** — nếu cần viết tiếp Part 2/3 của Zombie Subway theo đúng cách đã làm Part 1, phải gọi lại skill `screenwriting-master` đó (không phải hai engine zombie trong thư mục này, hai engine đó chỉ xử lý từ-script-đã-có-sẵn-trở-đi).
+  - `ZOMBIE_FLOOD_LINE_PART1_PIPELINE_OUTPUT.md` thì **không** qua skill này — script của nó được chính `ZOMBIE_SURVIVAL_ANIMATION_ENGINE.md` tự sáng tác ở STATE 1 (nhánh "premise hoặc không có gì"), nguồn gốc setup lấy từ một file docx tải về (`ZOMBIE SURVIVAL ANIMATION ENGINE.docx`), không liên quan `screenwriting-master`.
+
+- **`cinematic-video-prompt-skill`** (tên skill: `cinematic-video-prompt`) — Skill global, cài ở `C:\Users\MKT\.claude\skills\cinematic-video-prompt-skill` — "từ điển kỹ thuật quay phim" cho prompt ảnh/video AI (góc máy, ánh sáng, bố cục, màu, mood, công thức ghép prompt, lỗi model hay gặp).
+  - Chính là skill được `camera-movement-ai.md` tham chiếu tới (dòng mở đầu file: "cần ghép thêm các khối đó, xem skill `cinematic-video-prompt-skill`, để ra prompt hoàn chỉnh") — `camera-movement-ai.md` chỉ là khối "Camera movement" đơn lẻ, còn shot size/ánh sáng/bố cục/màu phải lấy từ skill này.
+  - Đã dùng **thật** khi viết STATE 5 của `result/ZOMBIE_SUBWAY_EP1_PIPELINE_OUTPUT.md` — ghi rõ trong file đó (dòng trạng thái cuối): "Camera đã chuẩn hoá theo `camera-movement-ai.md` + `cinematic-video-prompt-skill`".
+  - Cũng là skill global, không nằm trong `skill-video` — nếu viết tiếp các chapter/part sau mà cần chuẩn hoá camera/ánh sáng/màu giống các chapter trước, phải gọi lại skill này (không chỉ dựa vào `camera-movement-ai.md` một mình).
+
 ## Điểm thiết kế quan trọng cần nhớ: CONTINUITY INPUT (STATE 4)
 
 Mỗi prompt start-frame ở STATE 4 (từ chapter thứ 2 trở đi) phải có một dòng **CONTINUITY INPUT** ghi rõ liệu chapter này có cần đính kèm thêm end-frame thật của chapter trước không:
