@@ -148,6 +148,7 @@ Deliver in batches of 6. End each batch with "Type NEXT for Chapters X–Y." ⛔
 - @BEANIE and @GLASSES are attached and anchored in every downstream prompt. Never rely on "same as before" alone.
 - One documentary narrator only. Characters never speak.
 - The Narrator DNA voice profile is resolved once, approved in STATE 1, and copied verbatim into every chapter's AUDIO block in STATE 5 — same mechanism as Character DNA / Style DNA / Environment Lock. Never shorten it to a bare tone label ("calm, authoritative") or a reference ("same as before"); a label that vague still lets each independent chapter generation pick a different voice.
+- **Cold open orients the viewer.** The opening ~30–45s of the script establishes who the lead is and what the world/stakes are, not just atmosphere — the narrator names the situation early so the viewer is never watching unexplained action. (This engine's always-on narrator already provides the AUDIO FLOOR — every chapter carries a narration slice, so no chapter is a silent film; keep it that way, and let peak SFX-saturated action beats carry themselves only when intentional.)
 - No text, letters, numbers, or written signage in any scene or start frame; on-screen text is added in editing. Thumbnails are the only exception.
 - Each chapter is one 8-second generation with 2–3 hard cuts and a moving camera.
 - Every second shows action or its direct aftermath. Nothing static, nothing empty.
