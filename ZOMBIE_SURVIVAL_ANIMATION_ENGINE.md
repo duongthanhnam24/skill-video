@@ -42,6 +42,7 @@ bite → lunge / grab · blood → dark stains / grime · kill, dead → stop, d
 
 - Choose the strongest original survival concept yourself. Examples: escaping a flooded underground shelter, surviving an outbreak inside a skyscraper, rescuing trapped survivors, escaping the city after a catastrophe. Do not offer options.
 - Give the main characters story names and use them consistently. The prompt tags stay @BEANIE and @GLASSES.
+- **STORY BIBLE (multi-Part/Episode projects only):** if this project spans more than one Part/Episode (not a stand-alone one-off video), fill in Part A of `story-bible-continuity-toolkit.md` (entities, canon facts, relationships, timeline, conflict check, thread tracker) alongside the outputs below, saved as `<PROJECT_NAME>_STORY_BIBLE.md`. Skip this for a stand-alone video with no planned sequel.
 - Output: video title · one-paragraph synopsis · the full voiceover script · the resolved Narrator DNA voice profile.
 - The script is a single documentary narrator: one off-screen voice, third person, calm and authoritative, with tension rising underneath. No character dialogue, no character voices, and no speaker labels.
 - Write it the way a survival documentary recounts real events. The narrator explains what the characters do, what they don't yet know, and what it costs them.
@@ -50,6 +51,7 @@ bite → lunge / grab · blood → dark stains / grime · kill, dead → stop, d
 - Open with a hook in the first line. Build escalating danger and at least one twist, and end on a cliffhanger or an earned resolution.
 - Every line must describe something that can be shown on screen.
 - Narrator delivery cues go in [brackets] only where pace or tone shifts: [slower], [hushed], [beat].
+- **PROSE QUALITY PASS:** before presenting the script, run it through the project skill `.claude/skills/writing/fiction-writing-prose/SKILL.md` (voice, rhythm, render-don't-explain). The narrator's voice is the whole script's voice here — check every line shows the moment rather than explains its meaning, and tighten anything that reads flat or generic.
 - End with the bold caps line: WOULD YOU LIKE THE SCRIPT LONGER? ⛔ STOP.
   - Yes → extend by the amount I give (default +25%) and ask again.
   - No → go to STATE 2.
@@ -89,6 +91,7 @@ bite → lunge / grab · blood → dark stains / grime · kill, dead → stop, d
   - A **CONTINUITY INPUT** line, carried over from the STATE 3 handoff marking for this chapter (every chapter from the second one onward must state this explicitly, never leave it implicit):
     - If STATE 3 marked the handoff from Chapter N-1 a **true match-cut**: "CONTINUITY INPUT: true match-cut from Chapter N-1 — once Chapter N-1's real video exists, also attach its actual rendered final frame here as a secondary pose/camera reference, layered on top of (never replacing) the reference-image attachment, identity anchor, Style DNA, ENVIRONMENT LOCK, and prop palette above."
     - If STATE 3 marked it an **intentional scene/beat change**: "CONTINUITY INPUT: none — intentional scene/beat change, use only the text locks above."
+  - **KNOWLEDGE CHECK (projects with a Story Bible only):** before picking pose/expression for this chapter, check Part B of `story-bible-continuity-toolkit.md` (per-character STATE line + "who knows what" log) — pose/expression must match what the characters actually know and feel at this point, not what the narrator already told the viewer. Update both after the chapter is confirmed.
 - No text, letters, numbers, or signage with writing anywhere in the frame.
 - Deliver in batches of 6. After each batch: "Generate these. Tell me which frames to regenerate, or say CONFIRMED." ⛔ STOP.
   - For flagged frames, rewrite only those with the fix and ask again.
@@ -115,9 +118,10 @@ Write one paste-ready video prompt per chapter, under 2,500 characters, with the
    - Constant motion, no frozen frames.
    - One generation per chapter. Never split a chapter into separate generations.
 7. **AUDIO:**
-   - Baked: "NARRATION (off-screen documentary narrator, [full frozen Narrator DNA voice profile from STATE 1, copied verbatim — never abbreviated to "calm, authoritative" or "same narrator as before"]): [narration slice with delivery cues]. Characters do not speak." plus SFX / Ambient / Music.
-   - Post: "Render silent. Characters do not speak." plus an SFX / Ambient / Music cue sheet for the edit.
-8. **NEGATIVE PROMPT:** morphing, face distortion, extra limbs or fingers, outfit or colour changes, missing beanie / scarf / glasses, character swap, characters talking, lip-sync mouth movement, dialogue, realistic humans, 3D render, anime, sudden location change, undeclared props, text, letters, subtitles, signs with writing, watermark, blood, gore, static camera, frozen frames.
+   - Baked: "NARRATION (off-screen documentary narrator, [full frozen Narrator DNA voice profile from STATE 1, copied verbatim — never abbreviated to "calm, authoritative" or "same narrator as before"]): [narration slice with delivery cues]. Characters do not speak." plus SFX / Ambient. **No music.**
+   - Post: "Render silent. Characters do not speak." plus an SFX / Ambient cue sheet for the edit. **No music.**
+   - Never request or describe a score, soundtrack, or background music track — audio here is narration plus environmental SFX/ambient only. This matters because some video-gen platforms (e.g. Veo3) auto-generate background music on their own even when none is prompted; the negative prompt below exists to suppress that.
+8. **NEGATIVE PROMPT:** morphing, face distortion, extra limbs or fingers, outfit or colour changes, missing beanie / scarf / glasses, character swap, characters talking, lip-sync mouth movement, dialogue, realistic humans, 3D render, anime, sudden location change, undeclared props, text, letters, subtitles, signs with writing, watermark, blood, gore, static camera, frozen frames, music, score, soundtrack, background music.
 9. **MATCH-CUT HANDOFF:** "Final 0.5–1s: [shape / action / object / pose] that opens Chapter N+1."
 
 Deliver in batches of 6. End each batch with "Type NEXT for Chapters X–Y." ⛔
@@ -147,8 +151,10 @@ Deliver in batches of 6. End each batch with "Type NEXT for Chapters X–Y." ⛔
 - Every generation block carries a negative prompt.
 - @BEANIE and @GLASSES are attached and anchored in every downstream prompt. Never rely on "same as before" alone.
 - One documentary narrator only. Characters never speak.
+- **No music in any STATE 5 video prompt.** AUDIO blocks carry narration and SFX/ambient only — never a music/score/soundtrack cue — and every STATE 5 negative prompt explicitly excludes music/score/soundtrack/background music, because some video-gen platforms (e.g. Veo3) auto-generate background music on their own even when none is requested.
 - The Narrator DNA voice profile is resolved once, approved in STATE 1, and copied verbatim into every chapter's AUDIO block in STATE 5 — same mechanism as Character DNA / Style DNA / Environment Lock. Never shorten it to a bare tone label ("calm, authoritative") or a reference ("same as before"); a label that vague still lets each independent chapter generation pick a different voice.
 - **Cold open orients the viewer.** The opening ~30–45s of the script establishes who the lead is and what the world/stakes are, not just atmosphere — the narrator names the situation early so the viewer is never watching unexplained action. (This engine's always-on narrator already provides the AUDIO FLOOR — every chapter carries a narration slice, so no chapter is a silent film; keep it that way, and let peak SFX-saturated action beats carry themselves only when intentional.)
+- **Prose quality pass.** The project skill `.claude/skills/writing/fiction-writing-prose/SKILL.md` is run over the full narration script in STATE 1, before approval — there is only one voice in this engine (the narrator), so its voice/rhythm/render-don't-explain quality carries the entire script.
 - No text, letters, numbers, or written signage in any scene or start frame; on-screen text is added in editing. Thumbnails are the only exception.
 - Each chapter is one 8-second generation with 2–3 hard cuts and a moving camera.
 - Every second shows action or its direct aftermath. Nothing static, nothing empty.

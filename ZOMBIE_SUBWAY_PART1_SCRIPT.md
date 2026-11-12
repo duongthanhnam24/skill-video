@@ -65,7 +65,7 @@ Arc Phần 1: tuân luật tuyệt đối → bị luật dồn vào góc tườ
 **Tông:** Thiết lập, hồi hộp
 
 **Cấu trúc (~10 phút):**
-- Cold open (~45s): lục vật tư siêu thị bỏ hoang nửa đêm, nhóm né vũng ánh sáng theo bản năng, xác sống đứng yên trong góc tối, tiếng động hóa ra là mèo hoang.
+- Cold open (~95s): lục vật tư siêu thị bỏ hoang nửa đêm (VO Lâm dẫn truyện ngôi 1), nhóm né vũng ánh sáng theo bản năng; phát hiện kệ dược phẩm đã bị lục sạch từ trước (khan hiếm thật); Hạ liều lấy nốt lọ kháng sinh cuối cùng nằm cạnh một xác sống đang bất động dựa tường, xung đột Want-vs-Want với Lâm (muốn bỏ lại vì an toàn) — Hạ thắng, xác sống giật mình rên khô suýt lộ, cả nhóm thoát trong gang tấc.
 - Setup (~90s): về ga, giới thiệu không gian trú ẩn, luật lệ viết tay, các thành viên (Bác Tư, Mai & An ở góc).
 - Development (~240s): trên đường về chạm trán xác sống đơn lẻ, Đức bị trầy tay khi né tránh.
 - Climax (~150s): về ga, vết trầy bị phát hiện, Bác Tư hoảng loạn đòi đuổi ngay, Lâm quyết định cách ly tạm thời.
@@ -123,7 +123,7 @@ Tiền sử bổ sung: Bác Tư (mất vợ tuần đầu bùng phát); Mai & An
 Không sai lệch so với quy hoạch mùa.
 
 ### Bước 5 — Cấu trúc đại cương (cấp hồi)
-- **Cold open (~45s):** lục vật tư siêu thị bỏ hoang nửa đêm; Đức ra hiệu giờ còn lại; nhóm né vũng sáng theo bản năng; xác sống đứng yên trong góc tối không phản ứng; tiếng động hóa ra mèo hoang.
+- **Cold open (~95s):** lục vật tư siêu thị bỏ hoang nửa đêm (VO Lâm dẫn truyện ngôi 1 xuyên cold open); Đức ra hiệu giờ còn lại; nhóm né vũng sáng theo bản năng; rẽ vào góc dược phẩm phát hiện kệ đã bị lục sạch từ trước (khan hiếm thật, không phải phông nền); Hạ dừng phắt thấy lọ kháng sinh cuối cùng còn nguyên nắp nằm dưới chân một xác sống đang "ngủ" dựa tường; Hạ liều lấy, Lâm cản vì an toàn (Want-vs-Want) — Hạ thắng, tay chạm lọ thuốc khiến xác sống giật mình rên khô, cả ba nín thở rồi thoát trong gang tấc.
 - **I. Thiết lập (~90s, 15%):** về ga, không gian trú ẩn hiện ra (cửa chắn sáng, bảng giờ an toàn viết tay), Bác Tư và gia đình Mai–An ở góc, Lâm kiểm tra giờ ghi chép.
 - **II. Phát triển (~230s, 40%):** xác sống đơn lẻ xuất hiện từ đống đổ nát, Đức bị trầy tay vào kim loại rỉ lúc né tránh (nguồn gốc vết trầy cố ý mơ hồ); nhóm chạy thoát về gần cửa hầm, phát hiện vết trầy. B-plot nhẹ: Hạ hỏi thăm sức khỏe mọi người theo thông lệ.
 - **III. Cao trào (~140s, 25%):** tin lan nhanh, Bác Tư hoảng loạn hô đuổi Đức, tranh cãi nổ ra, Lâm quyết định cách ly tạm thời.
@@ -135,18 +135,18 @@ Tiêu thụ ngân sách arc: Lâm 10%. Giải phóng thế giới quan: tầng b
 
 | # | Cảnh | Thời lượng | Nhịp cốt truyện | Nhịp cảm xúc |
 |---|------|-----------|-----------------|--------------|
-| 1 | INT. Siêu thị bỏ hoang — ĐÊM (cold open) | ~45s | Tấn | Nhẹ |
-| 2 | EXT. Đường hầm dẫn về ga — ĐÊM | ~30s | Trung | Nhẹ |
-| 3 | INT. Ga — không gian trú ẩn chính — ĐÊM | ~60s | Lỏng | Trung |
-| 4 | INT. Ga — khu phân loại vật tư — ĐÊM | ~50s | Lỏng | Nhẹ |
-| 5 | EXT/INT. Hẻm tối gần ga — ĐÊM (Đức bị trầy) | ~90s | Tấn | Trung |
-| 6 | EXT. Gần cửa hầm về ga — ĐÊM | ~40s | Trung | Trung |
-| 7 | INT. Ga — khu vực cửa vào — ĐÊM (phát hiện vết trầy) | ~50s | Trung | Nặng |
-| 8 | INT. Ga — sảnh chính — ĐÊM (climax, tranh cãi) | ~140s | Tấn | Nặng |
-| 9 | INT. Ga — khu cách ly tạm — ĐÊM | ~50s | Lỏng | Nặng |
-| 10 | INT. Ga — trạm y tế nhỏ — ĐÊM (hook) | ~60s | Lỏng | Trung |
+| 1 | INT. Siêu thị bỏ hoang — ĐÊM (cold open) | ~95s (Ch0–11) | Tấn | Nhẹ |
+| 2 | EXT. Đường hầm dẫn về ga — ĐÊM | ~30s (Ch12–15) | Trung | Nhẹ |
+| 3 | INT. Ga — không gian trú ẩn chính — ĐÊM | ~60s (Ch16–23) | Lỏng | Trung |
+| 4 | INT. Ga — khu phân loại vật tư — ĐÊM | ~55s (Ch24–30) | Lỏng | Nhẹ |
+| 5 | EXT/INT. Hẻm tối gần ga — ĐÊM (Đức bị trầy) | ~95s (Ch31–42) | Tấn | Trung |
+| 6 | EXT. Gần cửa hầm về ga — ĐÊM | ~40s (Ch43–47) | Trung | Trung |
+| 7 | INT. Ga — khu vực cửa vào — ĐÊM (phát hiện vết trầy) | ~55s (Ch48–54) | Trung | Nặng |
+| 8 | INT. Ga — sảnh chính — ĐÊM (climax, tranh cãi) | ~145s (Ch55–72) | Tấn | Nặng |
+| 9 | INT. Ga — khu cách ly tạm — ĐÊM | ~55s (Ch73–79) | Lỏng | Nặng |
+| 10 | INT. Ga — trạm y tế nhỏ — ĐÊM (hook) | ~60s (Ch80–87, chapter cuối ngắn hơn) | Lỏng | Trung |
 
-Tổng: ~615s (~10 phút 15s). Tự kiểm nhịp điệu: đạt (không quá 3 cảnh liên tiếp cùng trạng thái ở cả hai trục; climax chiếm 22,8% tổng thời lượng; cảnh 9 là đoạn lệch nhịp cố ý).
+Tổng: ~655s (~10 phút 55s) — khớp đúng tổng 88 chapter (Ch0 cold-open bổ sung + Ch1–87) × ~8s/chapter đã dùng thật trong pipeline. Tự kiểm nhịp điệu: đạt (không quá 3 cảnh liên tiếp cùng trạng thái ở cả hai trục; climax/Cảnh 8 chiếm ~22% tổng thời lượng; cảnh 9 là đoạn lệch nhịp cố ý).
 
 ```
 CHECKPOINT TRÍ NHỚ — TẬP 1 (sau Bước 6)
@@ -161,36 +161,69 @@ Hướng nhịp: tập kết ở trạng thái "treo nhẹ" (lỏng/trung) — T
 
 ### Bước 7 — Viết cảnh đầy đủ (kèm đối thoại)
 
-**CẢNH 1. NỘI. SIÊU THỊ BỎ HOANG – ĐÊM**
+**CẢNH 1. NỘI. SIÊU THỊ BỎ HOANG – ĐÊM (COLD OPEN)**
 
-Ánh đèn pin quét qua các kệ hàng đổ nghiêng, hộp giấy mục nát. LÂM đi đầu, đèn pin cầm thấp. HẠ và ĐỨC theo sau, mỗi người một túi vải lớn.
+Hành lang siêu thị trống, kệ hàng đổ nghiêng chất chồng, bụi lơ lửng trong ánh trăng xanh lọt qua mái vỡ. Một luồng đèn pin bắt đầu quét vào từ ngoài khung, quét nhanh dần như có người vừa vội bước — chưa ai xuất hiện.
 
-Đức dừng lại, kéo tay áo, nhìn đồng hồ dạ quang trên cổ tay, giơ ba ngón tay lên ra hiệu với Lâm.
+LÂM (V.O.)
+Tám tiếng nữa mặt trời sẽ mọc. Và chúng tôi không còn nhớ lần cuối ai dám chờ nó lên vì một lý do tốt đẹp.
 
-Lâm gật đầu, không nói, tiếp tục lục kệ thuốc.
+Đèn pin quét qua kệ hàng đổ nghiêng. LÂM dẫn đầu, HẠ và ĐỨC theo sau, túi vải trên vai còn rỗng.
 
-Một vệt sáng xanh nhạt lọt qua mái vỡ, đổ xuống giữa lối đi như một vũng nước. Cả ba người, không ai bảo ai, đều đi vòng qua, không bước vào vệt sáng đó.
+LÂM (V.O.)
+Trước ngày mặt trời trở mặt, tôi là người vận hành cái ga tàu này.
 
-Ở góc xa, trong bóng tối sau quầy thu ngân, một hình người đứng bất động. Hạ khẽ rọi đèn qua — ánh đèn lướt qua gương mặt xám, hai mắt trũng sâu không chớp. Nó không di chuyển.
+Đức dừng lại, kéo tay áo, soi đồng hồ dạ quang trên cổ tay, xòe ba ngón tay về phía Lâm. Lâm nhìn đồng hồ, gật đầu, đẩy nhanh bước.
+
+LÂM (V.O.)
+Mặt trời giờ phát ra một thứ bức xạ lạ. Ai phơi nắng quá lâu sẽ không còn là người nữa.
+
+Họ rẽ vào góc dược phẩm. Kệ đổ nghiêng, vỏ thuốc rách vứt khắp sàn, từng ngăn kệ trống trơn — ai đó đã lục qua từ trước. Lâm đứng sững, nắm chặt quai túi.
+
+Hạ ngồi thụp xuống, lục đống vỏ hộp còn sót, xếp riêng loại còn dùng được bằng tay nhanh, có hệ thống.
+
+LÂM (V.O.)
+Nên chúng tôi sống dưới lòng đất, trong ga tàu, và chỉ dám lên mặt đất khi trời đã tắt nắng.
+
+Một vệt sáng xanh nhạt len qua khe mái vỡ, rọi xuống lối đi giữa hai kệ. Cả ba né sang bên, đi vòng qua, không ai cần nhắc ai.
+
+Hạ dừng phắt: một lọ kháng sinh còn nguyên nắp nằm lọt dưới chân một hình người ngồi bất động, dựa tường, đầu gục.
+
+LÂM (V.O.)
+Ban ngày, nó là cái chết biết đi. Ban đêm, nó chỉ ngồi im, như đã chết thêm một lần nữa.
+
+Hạ nhích tới. Lâm nắm tay kéo lại.
+
+HẠ
+*(thì thầm, mắt không rời lọ thuốc)*
+Còn hạn. Đủ một ca nhiễm trùng nặng.
+
+LÂM
+*(thì thầm, gằn)*
+Không đáng.
+
+Hạ gỡ tay Lâm, tự hạ thấp người, đo khoảng cách bằng mắt. Lâm nửa bước theo. Đức đứng chặn lối, siết chặt ống kim loại.
 
 HẠ
 *(thì thầm)*
-Để nó đó.
+Để tao.
 
-Lâm gật, tiếp tục đi. Một tiếng sột soạt sau kệ hàng. Cả ba đứng sững, đèn pin tắt phựt.
+Lâm dừng bước, chỉ gật.
 
-Vài giây im lặng kéo dài.
+Tay Hạ chạm lọ thuốc — xác sống giật nhẹ đầu, một tiếng rên khô bật ra. Cả ba đứng sững, nín thở.
 
-Một con mèo hoang nhảy ra, chạy biến mất vào bóng tối.
-
-Đức thở hắt ra, bật đèn pin lại.
+Xác sống gục đầu lại, không tỉnh. Hạ lùi lại thở hắt, Đức hạ ống kim loại, cười nhẹ nhõm gượng gạo.
 
 ĐỨC
 *(giọng nhỏ, pha trò)*
 Có ngày tao chết vì tim trước khi chết vì cái thứ ngoài kia.
 
+Lâm nhìn Hạ một nhịp, không nói gì, rồi quay đi.
+
 LÂM
 Nhẹ tay. Còn hai kệ nữa.
+
+Cả ba đứng dậy. Hạ nhét lọ thuốc vào túi, khoác lên vai. Nhóm quay người, hướng về cửa ra.
 
 ---
 
@@ -199,37 +232,58 @@ Nhẹ tay. Còn hai kệ nữa.
 Ba người đi nhanh trong đường hầm metro cũ, đèn pin quét trước mặt. Túi vật tư nặng trên vai.
 
 ĐỨC
-Mày còn giữ cái đồng hồ tao tặng không? Hồi sinh nhật mày.
+Mày còn giữ cái móc khóa tao tặng không? Hồi sinh nhật mày.
 
 LÂM
-Giữ.
+*(khẽ chạm tay vào chùm móc khóa, giọng mềm đi một chút, vẫn không ngoái lại)*
+Giữ chứ. Lúc nào cũng đeo nó.
 
 ĐỨC
 Thế là còn nợ tao một cái ôm cảm động đấy nhé. Từ hồi tao kéo mày ra khỏi đống sắt ở công trường.
 
-Lâm không trả lời, chỉ đi nhanh hơn. Đức nhìn theo, cười nhẹ, bước theo.
+Lâm không đáp — im lặng có chủ đích, chỉ đi nhanh hơn. Đức nhìn theo, cười nhẹ, bước theo.
 
 HẠ
+*(khẽ cười)*
 Hai đứa mày lúc nào cũng vậy.
+
+ĐỨC
+*(cười khẽ, liếc sang Lâm)*
+Thế mới sống nổi tới giờ.
 
 ---
 
 **CẢNH 3. NỘI. GA – KHÔNG GIAN TRÚ ẨN CHÍNH – ĐÊM**
 
-Một sân ga cũ được cải tạo: chăn mền treo làm vách ngăn, đèn dầu nhỏ, một tấm bảng gỗ lớn treo ở lối vào, chữ viết tay: "GIỜ AN TOÀN: 18:40 – 05:15". Vài vạch gạch chéo đánh dấu ngày.
+Lâm, Hạ, Đức bước qua một lớp cửa kim loại dày được chèn thêm những tấm cao su đen — reveal không gian trú ẩn: chăn mền treo làm vách ngăn, đèn dầu nhỏ.
 
-Lâm, Hạ, Đức bước qua một lớp cửa kim loại dày được chèn thêm những tấm cao su đen.
+ĐỨC
+*(thở phào, nhẹ nhõm)*
+Về nhà rồi.
 
-Ở góc ga, BÁC TƯ ngồi cạnh một chiếc đèn dầu, đang vá lại một chiếc áo. MAI ôm AN ngủ gật trong lòng, một tấm chăn quấn quanh cả hai.
+HẠ
+*(mỉm cười mệt, chạm nhẹ vào tay Đức)*
+Về rồi.
+
+Một tấm bảng gỗ lớn treo ở lối vào, chữ viết tay: "GIỜ AN TOÀN: 18:40 – 05:15". Vài vạch gạch chéo đánh dấu ngày.
+
+Ở góc ga, BÁC TƯ ngồi cạnh một chiếc đèn dầu, đang vá lại một chiếc áo.
+
+BÁC TƯ
+*(nói với chính mình, giọng khàn, cười buồn khẽ, không ngẩng lên)*
+Bà cứ chê tay tao khâu xấu... giờ thì có ai chê được nữa.
+
+MAI ôm AN ngủ gật trong lòng, một tấm chăn quấn quanh cả hai.
 
 Lâm đi thẳng tới tấm bảng, rút cây bút chì buộc dây, gạch thêm một vạch, nhìn đồng hồ, ghi giờ vào góc bảng.
 
 BÁC TƯ
-*(không ngẩng lên)*
-Đủ cả không?
+*(không ngẩng lên, giọng ấm, như hỏi người nhà)*
+Đủ cả không, con?
 
 LÂM
-Đủ.
+*(khẽ mỉm cười)*
+Đủ. Bác đừng lo.
 
 Lâm treo lại chùm chìa khóa lên móc, kiểm tra khóa cửa hai lần.
 
@@ -238,6 +292,14 @@ Lâm treo lại chùm chìa khóa lên móc, kiểm tra khóa cửa hai lần.
 **CẢNH 4. NỘI. GA – KHU PHÂN LOẠI VẬT TƯ – ĐÊM**
 
 Hạ, Đức, Lâm ngồi quanh một tấm bạt trải trên sàn, phân loại thuốc, đồ hộp, pin.
+
+ĐỨC
+*(cười nhẹ)*
+Ba cái pin này sống thêm được một tuần là có phép lạ.
+
+HẠ
+*(đẩy nhẹ vai Đức, giọng trêu)*
+Phép lạ để tao cầu. Đếm cho chuẩn thôi.
 
 HẠ
 *(cầm tay Đức lên, nhìn móng tay)*
@@ -250,25 +312,47 @@ HẠ
 *(bật cười nhẹ, thả tay ra)*
 Cứ nói thật là được.
 
-Đức ho nhẹ, tiếp tục xếp đồ. Lâm liệt kê số lượng vào một cuốn sổ nhỏ, không tham gia trò chuyện.
+Đức ho nhẹ, tiếp tục xếp đồ.
+
+HẠ
+*(liếc sang, nửa đùa nửa lo)*
+Ho gì nghe ghê vậy?
+
+ĐỨC
+*(cười xòa)*
+Bụi thôi. Mày lo xa quá.
+
+Lâm liệt kê số lượng vào một cuốn sổ nhỏ, không tham gia trò chuyện.
+
+Cả ba đứng dậy, vác túi vật tư chuẩn bị rời ga.
+
+ĐỨC
+*(huých nhẹ vai Lâm)*
+Đi thôi, trước khi bác Tư lại càm ràm.
+
+LÂM
+*(khẽ cười)*
+Càm ràm nghĩa là bác còn lo cho mày đấy.
 
 ---
 
 **CẢNH 5. NGOẠI/NỘI. HẺM TỐI GẦN GA – ĐÊM**
 
-Trên đường về, họ cắt qua một con hẻm hẹp đầy rác và xe cộ bỏ lại. Đèn pin quét qua từng góc.
+Trên đường về, họ cắt qua một con hẻm hẹp đầy rác và xe cộ bỏ lại. Đèn pin quét qua từng góc. Đức sát sau Lâm, Hạ cảnh giác nhìn quanh.
 
 Đột ngột — một hình người lao ra từ sau một chiếc xe lật, tay giơ cao, miệng há rộng không thành tiếng.
 
-Cả ba giật lùi. Đức va vào một tấm mái tôn rỉ dựng nghiêng, cánh tay quẹt ngang một cạnh sắc.
+Cả ba giật lùi hoảng loạn. Đức va vào một tấm mái tôn rỉ dựng nghiêng, cánh tay quẹt ngang một cạnh sắc.
 
 LÂM
 *(hét)*
 Né!
 
-Hạ kéo Đức ngã sang bên. Xác sống trượt chân, đập vào đống đổ nát, loạng choạng đứng lên lại.
+Hạ kéo Đức ngã sang bên. Xác sống trượt chân, đập vào đống đổ nát, loạng choạng đứng lên lại, tiến về phía nhóm.
 
-Lâm vớ một thanh sắt, đập mạnh vào đầu gối nó, xác sống khuỵu xuống. Ba người không chờ thêm, chạy thẳng về hướng ga.
+Lâm vớ một thanh sắt gần đó, đập mạnh vào đầu gối nó — xác sống khuỵu xuống.
+
+Ba người không chờ thêm, chạy thẳng về hướng ga.
 
 ---
 
@@ -288,16 +372,21 @@ Chắc do cái mái tôn. Sắc kinh khủng.
 
 Hạ cầm tay anh lên, nhìn kỹ dưới đèn pin.
 
+HẠ
+*(khẽ, giọng chùng xuống, không nhìn lên)*
+Sâu hơn tao nghĩ đấy.
+
 LÂM
-*(nhìn chằm chằm vết thương)*
+*(giọng hơi nghẹn, tay siết nhẹ vai Đức)*
 Nó chạm vào mày lúc nào?
 
 ĐỨC
+*(cười gượng nhẹ, tránh ánh mắt Lâm)*
 Tao không biết. Lúc ngã.
 
 Im lặng ngắn. Lâm quay đi trước, bước vào cửa hầm.
 
-> *Checkpoint nội tập (sau cảnh 6):* Lâm đã bắt đầu hỏi về thời điểm tiếp xúc (phản xạ tính toán rủi ro) trước khi hỏi han Đức. Vết thương: vết rách dài cẳng tay, không rõ nguồn gốc. Hạ đã quan sát kỹ — sẽ trả lại chi tiết này ở cảnh 10.
+> *Checkpoint nội tập (sau cảnh 6):* Lâm đã bắt đầu hỏi về thời điểm tiếp xúc (phản xạ tính toán rủi ro) trước khi hỏi han Đức. Vết thương: vết rách dài cẳng tay, không rõ nguồn gốc, Hạ đã nhận ra nó "sâu hơn tưởng" ngay tại hiện trường. Hạ đã quan sát kỹ — sẽ trả lại chi tiết này ở cảnh 10.
 
 ---
 
@@ -305,12 +394,21 @@ Im lặng ngắn. Lâm quay đi trước, bước vào cửa hầm.
 
 Dưới ánh đèn dầu sáng hơn, Hạ xem kỹ vết thương của Đức, lau nhẹ bằng khăn. Lâm đứng cách đó vài bước, khoanh tay.
 
+ĐỨC
+*(hít vào qua kẽ răng, nửa đùa)*
+Ui, nhẹ tay chút, bác sĩ!
+
+HẠ
+*(dịu giọng, tay chậm lại)*
+Xin lỗi. Gần xong rồi.
+
 Vài người khác bắt đầu tụ lại gần đó, nhìn vào.
 
 HẠ
 Vết xước, không sâu. Nhưng tao cần giữ nó sạch vài ngày.
 
 LÂM
+*(giọng cố giữ bình thản, nhưng hơi thở hụt một nhịp)*
 Bao lâu thì biết chắc?
 
 HẠ
@@ -355,6 +453,7 @@ BÁC TƯ
 Nếu nó biến thì ai đứng gần phòng đó chịu trách nhiệm?
 
 LÂM
+*(giọng chắc nhưng tay siết chặt vòng khóa — cái giá âm thầm của quyết định)*
 Tôi.
 
 Bác Tư im lặng. Đám đông dần giãn ra.
